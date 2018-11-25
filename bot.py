@@ -1,7 +1,7 @@
 import telebot
 import markups as m
 
-TOKEN = '689386115:AAFVkgOWcCKrbo0l8pbac3HcX-7rscNVAVc'
+
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
